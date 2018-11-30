@@ -9,6 +9,7 @@ int main() {
     jurassicPark.addDinosaur(Dinosaur("Henk"));
     jurassicPark.addDinosaur(Dinosaur("Klaas"));
     jurassicPark.addDinosaur(Dinosaur("Wilco"));
+    //jurassicPark.addDinosaur(Dinosaur("Ayylmao"));
 
     jurassicPark.list();
 

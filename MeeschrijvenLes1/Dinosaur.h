@@ -11,7 +11,8 @@
 class Dinosaur {
 public:
     Dinosaur();
-    Dinosaur(std::string name);
+
+    explicit Dinosaur(std::string name);
 
     std::string getName();
 

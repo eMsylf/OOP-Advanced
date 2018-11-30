@@ -4,9 +4,7 @@
 
 #include "Dinosaur.h"
 
-Dinosaur::Dinosaur() {
-
-}
+Dinosaur::Dinosaur() = default;
 
 Dinosaur::Dinosaur(std::string n) : name(n) { // met initializer list
     //name = n; // met gewoon assignen

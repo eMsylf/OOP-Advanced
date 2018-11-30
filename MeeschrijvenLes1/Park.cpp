@@ -5,9 +5,7 @@
 #include <iostream>
 #include "Park.h"
 
-Park::Park() {
-
-}
+Park::Park() = default;
 
 void Park::list() {
     std::cout << "----- In the park:" << std::endl;
